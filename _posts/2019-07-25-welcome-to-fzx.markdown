@@ -18,6 +18,7 @@ categories: jekyll update
 我找了：
 github
 Hexo
+git
 等等
 
 
