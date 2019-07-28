@@ -14,12 +14,13 @@ categories: jekyll update
 不过这不是我的博客,这是luogu名下的,我跟大佬一样,一直想有个blog
 我一直在网上百度寻找适合我的搭建博客方式
 
-
+---
 我找了：
 github
 Hexo
 等等
 
+---
 
 最后我请教了大佬,用`Jekyll`勉勉强强做了一个博客。
 
