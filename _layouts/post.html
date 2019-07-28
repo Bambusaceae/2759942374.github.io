@@ -24,4 +24,22 @@ layout: default
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  
+  <hr style="height: 0.25em;background-color: white;" />
+  <div>
+    <p style="margin-top:1em;"><b>评论</b></p>
+	<div id="comments-container"></div>
+	<script>
+		const gitalk = new Gitalk({
+			clientID: '627ff9b7a3801d9f4e05',
+			clientSecret: '786c532bb6525de5cb8400ec773e2e22b28760c3',
+			repo: '2759942374.github.io',
+			owner: '2759942374',
+			admin: ['2759942374'],
+			id: md5(window.location.pathname),
+			distractionFreeMode: false
+		})
+		gitalk.render('comments-container')
+	</script>
+  </div>
 </article>
