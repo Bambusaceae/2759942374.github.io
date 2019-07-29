@@ -5,4 +5,4 @@ date:   2019-07-28 10:16:00 +0800
 categories: jekyll update
 ---
 这篇文章纯属测试,不要当真。
-~eee~
+$\color{red}Orz$ \color{red}Orz
