@@ -107,7 +107,12 @@ o(n^{2});
 
 ### 快排
 
-sort的快排是o(nlogn) 快排大概是可以n<=100000。
+sort的快排是
+\begin{equation}
+o(nlogn);
+\end{equation}
+
+快排大概是可以n<=100000。
 
 
 所以如果n<=100用冒泡,超过用快排。
