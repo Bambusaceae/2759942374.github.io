@@ -1,4 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-28T10:38:49+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">fzx’s Blog</title><subtitle>This is my second blog, and another one is in Luogu.</subtitle><entry><title type="html">c++运算</title><link href="http://localhost:4000/jekyll/update/2019/07/28/c++%E8%BF%90%E7%AE%97.html" rel="alternate" type="text/html" title="c++运算" /><published>2019-07-28T10:16:00+08:00</published><updated>2019-07-28T10:16:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/07/28/c++%E8%BF%90%E7%AE%97</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/07/28/c++%E8%BF%90%E7%AE%97.html">&lt;p&gt;这篇文章纯属测试,不要当真。&lt;/p&gt;</content><author><name></name></author><summary type="html">这篇文章纯属测试,不要当真。</summary></entry><entry><title type="html">fzx的博客</title><link href="http://localhost:4000/jekyll/update/2019/07/27/fzx%E5%8D%9A%E5%AE%A2.html" rel="alternate" type="text/html" title="fzx的博客" /><published>2019-07-27T19:08:45+08:00</published><updated>2019-07-27T19:08:45+08:00</updated><id>http://localhost:4000/jekyll/update/2019/07/27/fzx%E5%8D%9A%E5%AE%A2</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/07/27/fzx%E5%8D%9A%E5%AE%A2.html">&lt;p&gt;欢迎来到fzx的博客,本博客是用&lt;code class=&quot;highlighter-rouge&quot;&gt;github&lt;/code&gt;驱动,用&lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;搭建。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-03T12:06:09+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">fzx’s Blog</title><subtitle>This is my second blog, and another one is in Luogu.</subtitle><entry><title type="html">日志1</title><link href="http://localhost:4000/jekyll/update/2019/08/01/%E6%97%A5%E5%BF%971%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6.html" rel="alternate" type="text/html" title="日志1" /><published>2019-08-01T17:42:32+08:00</published><updated>2019-08-01T17:42:32+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/01/%E6%97%A5%E5%BF%971%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/01/%E6%97%A5%E5%BF%971%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6.html">&lt;hr /&gt;
+
+&lt;h1 id=&quot;目录&quot;&gt;目录&lt;/h1&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#目录&quot; id=&quot;markdown-toc-目录&quot;&gt;目录&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#前言&quot; id=&quot;markdown-toc-前言&quot;&gt;前言&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#引入&quot; id=&quot;markdown-toc-引入&quot;&gt;引入&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#时间&quot; id=&quot;markdown-toc-时间&quot;&gt;时间&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#循环&quot; id=&quot;markdown-toc-循环&quot;&gt;循环&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#递归&quot; id=&quot;markdown-toc-递归&quot;&gt;递归&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#排序&quot; id=&quot;markdown-toc-排序&quot;&gt;排序&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#冒泡排序&quot; id=&quot;markdown-toc-冒泡排序&quot;&gt;冒泡排序&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#快排&quot; id=&quot;markdown-toc-快排&quot;&gt;快排&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#总结&quot; id=&quot;markdown-toc-总结&quot;&gt;总结&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;作者去了一个培训的地方,那里&lt;del&gt;考试难到爆&lt;/del&gt;很不错,我主要总是程序怕TLE。&lt;/p&gt;
+
+&lt;h1 id=&quot;引入&quot;&gt;引入&lt;/h1&gt;
+
+&lt;p&gt;有时候你可能没注重看数据范围,这个细节非常重要。&lt;/p&gt;
+
+&lt;h2 id=&quot;时间&quot;&gt;时间&lt;/h2&gt;
+
+&lt;h3 id=&quot;循环&quot;&gt;循环&lt;/h3&gt;
+
+&lt;p&gt;接下去讲讲一讲时间。&lt;/p&gt;
+
+&lt;p&gt;if 语句就不讲了,反正也没有那么精确。&lt;/p&gt;
+
+&lt;p&gt;接下来是循环&lt;/p&gt;
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;time.h&amp;gt;//这是测试循环100000次要多少时间
+#include &amp;lt;stdio.h&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cost&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;cost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%f&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cost&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;从这里可以看出循环100000次时间是 O(1)。&lt;/p&gt;
+
+&lt;p&gt;那么1000000次应该是o(10) 但事实不是这样,事实是o(14);&lt;/p&gt;
+
+&lt;p&gt;证明一个固定数值并不能代表所有,所以它是可以有误差的。&lt;/p&gt;
+
+&lt;p&gt;然后就可以得出普通循环的时间复杂度(包括输入输出和中间处理)是
+\begin{equation}
+o(n);
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;那么得到一个算式(作者是windows系统,可能有些不准) 100000000次循环不一定会爆,超过&lt;del&gt;可能&lt;/del&gt;爆掉。&lt;/p&gt;
+
+&lt;h3 id=&quot;递归&quot;&gt;递归&lt;/h3&gt;
+
+&lt;p&gt;递归是一个程序员必须要学会的,不过递归的时间是多少呢？&lt;/p&gt;
+
+&lt;p&gt;程序验证：&lt;/p&gt;
+
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;time.h&amp;gt;
+#include &amp;lt;stdio.h&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;dg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cost&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;dg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;cost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%f&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cost&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;程序发现递归是一次比一次小的规模。&lt;/p&gt;
+
+&lt;p&gt;所以递归(一直减一的情况下)的时间复杂度大概是:
+\begin{equation}
+o(n);
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;如果是二分的话,时间复杂度应该是:
+\begin{equation}
+o(logn);
+\end{equation}&lt;/p&gt;
+
+&lt;h2 id=&quot;排序&quot;&gt;排序&lt;/h2&gt;
+
+&lt;h3 id=&quot;冒泡排序&quot;&gt;冒泡排序&lt;/h3&gt;
+
+&lt;p&gt;分析一下,冒泡排序需要两重循环,大概是
+\begin{equation}
+o(n^{2});
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;那么由于100000000次循环会爆掉,加上一些读入输出,交换,所以n&amp;lt;=200。&lt;/p&gt;
+
+&lt;p&gt;但冒泡作为稳定排序还是很实用的。&lt;/p&gt;
+
+&lt;h3 id=&quot;快排&quot;&gt;快排&lt;/h3&gt;
+
+&lt;p&gt;sort的快排是
+\begin{equation}
+o(nlogn);
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;快排大概是可以n&amp;lt;=100000。&lt;/p&gt;
+
+&lt;p&gt;所以如果n&amp;lt;=100用冒泡,超过用快排。&lt;/p&gt;
+
+&lt;h1 id=&quot;总结&quot;&gt;总结&lt;/h1&gt;
+&lt;p&gt;反正时间!=时间复杂度,这一点要好好记住&lt;del&gt;否则你说出来,同学们:哈哈哈哈!&lt;/del&gt;。&lt;/p&gt;
+
+&lt;p&gt;好了我们时间和时间复杂度告一段落,以后还会有补充的。886。&lt;/p&gt;</content><author><name></name></author><summary type="html">目录 目录 前言 引入 时间 循环 递归 排序 冒泡排序 快排 总结 前言 作者去了一个培训的地方,那里考试难到爆很不错,我主要总是程序怕TLE。 引入 有时候你可能没注重看数据范围,这个细节非常重要。 时间 循环 接下去讲讲一讲时间。 if 语句就不讲了,反正也没有那么精确。 接下来是循环 #include &amp;lt;time.h&amp;gt;//这是测试循环100000次要多少时间 #include &amp;lt;stdio.h&amp;gt; int main() { long long a=100000; double start,end,cost; start=clock(); for (long long i=1;i&amp;lt;=a;i++) end=clock(); cost=end-start; printf(&quot;%f\n&quot;,cost); return 0; } 从这里可以看出循环100000次时间是 O(1)。 那么1000000次应该是o(10) 但事实不是这样,事实是o(14); 证明一个固定数值并不能代表所有,所以它是可以有误差的。 然后就可以得出普通循环的时间复杂度(包括输入输出和中间处理)是 \begin{equation} o(n); \end{equation} 那么得到一个算式(作者是windows系统,可能有些不准) 100000000次循环不一定会爆,超过可能爆掉。 递归 递归是一个程序员必须要学会的,不过递归的时间是多少呢？ 程序验证： #include &amp;lt;time.h&amp;gt; #include &amp;lt;stdio.h&amp;gt; int dg(int n) { if (n==1 || n==0) return 0; return n+dg(n-1); } int main() { long long a=100000; double start,end,cost; start=clock(); dg(a); end=clock(); cost=end-start; printf(&quot;%f\n&quot;,cost); return 0; } 程序发现递归是一次比一次小的规模。 所以递归(一直减一的情况下)的时间复杂度大概是: \begin{equation} o(n); \end{equation} 如果是二分的话,时间复杂度应该是: \begin{equation} o(logn); \end{equation} 排序 冒泡排序 分析一下,冒泡排序需要两重循环,大概是 \begin{equation} o(n^{2}); \end{equation} 那么由于100000000次循环会爆掉,加上一些读入输出,交换,所以n&amp;lt;=200。 但冒泡作为稳定排序还是很实用的。 快排 sort的快排是 \begin{equation} o(nlogn); \end{equation} 快排大概是可以n&amp;lt;=100000。 所以如果n&amp;lt;=100用冒泡,超过用快排。 总结 反正时间!=时间复杂度,这一点要好好记住否则你说出来,同学们:哈哈哈哈!。 好了我们时间和时间复杂度告一段落,以后还会有补充的。886。</summary></entry><entry><title type="html">欢迎来fzx的blog</title><link href="http://localhost:4000/jekyll/update/2019/07/25/fzx%E7%9A%84%E5%8D%9A%E5%AE%A2.html" rel="alternate" type="text/html" title="欢迎来fzx的blog" /><published>2019-07-25T14:36:28+08:00</published><updated>2019-07-25T14:36:28+08:00</updated><id>http://localhost:4000/jekyll/update/2019/07/25/fzx%E7%9A%84%E5%8D%9A%E5%AE%A2</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/07/25/fzx%E7%9A%84%E5%8D%9A%E5%AE%A2.html">&lt;p&gt;欢迎来到fzx的博客,本博客是用&lt;code class=&quot;highlighter-rouge&quot;&gt;github&lt;/code&gt;驱动,用&lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;搭建。&lt;/p&gt;
 
 &lt;p&gt;是&lt;a href=&quot;https://bambusoideae.cn/&quot;&gt;这个&lt;/a&gt;大佬教我怎么做的。
 这也是我的第二个博客,我的第一个博客是在&lt;a href=&quot;https://www.luogu.org/space/show?uid=208653&quot;&gt;这里&lt;/a&gt;。&lt;/p&gt;
@@ -13,4 +146,5 @@ Hexo
 等等&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;最后我请教了大佬,用&lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;勉勉强强做了一个博客。&lt;/p&gt;</content><author><name></name></author><summary type="html">欢迎来到fzx的博客,本博客是用github驱动,用Jekyll搭建。</summary></entry></feed>
+
+&lt;p&gt;最后我请教了大佬,用&lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;勉勉强强做了一个博客。&lt;/p&gt;</content><author><name></name></author><summary type="html">欢迎来到fzx的博客,本博客是用github驱动,用Jekyll搭建。 是这个大佬教我怎么做的。 这也是我的第二个博客,我的第一个博客是在这里。 不过这不是我的博客,这是luogu名下的,我跟大佬一样,一直想有个blog 我一直在网上百度寻找适合我的搭建博客方式 我找了： github Hexo 等等 最后我请教了大佬,用Jekyll勉勉强强做了一个博客。</summary></entry></feed>
